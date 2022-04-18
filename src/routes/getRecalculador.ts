@@ -3,7 +3,7 @@ import { transacoes_unitarias, client } from "../config/retryFunction";
 
 const router = express.Router();
 
-router.get("/recalculador", async (request: Request, response: Response) => {
+router.put("/recalculador", async (request: Request, response: Response) => {
   const inicialDate = undefined;
   const endDate = undefined;
 
